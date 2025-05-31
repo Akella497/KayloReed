@@ -1,0 +1,50 @@
+body {
+    background-image: url(https://i.ibb.co/CKD4RFr6/milica-mastelica-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.add {
+    position: relative;
+    font-size: 16pt;
+    padding: 2rem;
+    max-width: 800px;
+    background: rgba(71, 68, 68, 0.85);
+    margin: 0 auto;
+     border-radius: 8px;
+     color: azure;
+     margin-bottom: 2em;
+
+}
+
+.content {
+    position: relative;
+    font-size: 16pt;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+    max-width: unset;
+    width: 60%;
+    text-align: justify;
+}
+
+.name {
+    position: relative;
+    font-size: 16pt;
+    padding: 2rem;
+    max-width: 800px;
+    background: rgba(71, 68, 68, 0.85);
+    margin: 0 auto;
+    border-radius: 8px;
+     color: azure;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
