@@ -45,6 +45,18 @@ body {
      color: azure;
 }
 
+.number {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.number > p {
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+
 h1, h2, h3 {
     text-align: center;
 }
