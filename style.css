@@ -3,6 +3,34 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    margin: 0;
+}
+
+.image {
+    background-color: black;
+    border-bottom: white solid 3px;
+}
+
+.image1 {
+    background: url(https://i.ibb.co/4ZvFSRgY/4363a30421f6d488227ccf42501ed9ed.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    border-bottom: black solid 3px;
+}
+
+.image2 {
+    background: url(https://i.ibb.co/k2yvjLvj/image.png);
+    background-attachment: fixed;
+    background-size: cover;
+     border-bottom: black solid 3px;
+}
+
+.image3 {
+    background: url(https://i.ibb.co/Xr18B8Bs/image.png);
+    background-attachment: fixed;
+    background-size: cover;
+    border-top: black solid 3px;
+    border-bottom: black solid 3px;
 }
 
 .add {
@@ -12,10 +40,8 @@ body {
     max-width: 800px;
     background: rgba(71, 68, 68, 0.85);
     margin: 0 auto;
-     border-radius: 8px;
-     color: azure;
-     margin-bottom: 2em;
-
+    border-radius: 8px;
+    color: azure;
 }
 
 .content {
@@ -28,10 +54,10 @@ body {
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    margin-bottom: 1rem;
     max-width: unset;
     width: 60%;
     text-align: justify;
+    
 }
 
 .name {
@@ -42,7 +68,7 @@ body {
     background: rgba(71, 68, 68, 0.85);
     margin: 0 auto;
     border-radius: 8px;
-     color: azure;
+    color: azure;
 }
 
 .number {
@@ -51,12 +77,22 @@ body {
     gap: 1em;
 }
 
-.number > p {
+.one, .two, .three {
+    transition: all 1s ease;
+}
+
+.one:hover, .two:hover, .three:hover {
+    transform: scale(1.1);
+}
+
+.number> .one, .two, .three {
     border: 2px solid black;
     padding: 1rem;
 }
 
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-align: center;
 }
