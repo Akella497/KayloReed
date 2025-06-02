@@ -96,3 +96,15 @@ h2,
 h3 {
     text-align: center;
 }
+
+@media screen (max width: 800px) {
+.add, .content {
+    font-size: 10pt;
+}
+
+.number {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
